@@ -21,3 +21,13 @@ The first time will take a while to install dependencies. If you have a system i
 julia -J sys.so scripts/run_explore.jl
 ```
 
+## Interface explanation:
+- (1) : Run model for one update
+- (2) : Start/stop run model
+- (3) : Reset model to step 0 
+- (4) : Clear all data on the graph
+- (5) : Number of model steps per update (Default = 1 step)
+- (6) : Time interval between updates (Default = 1 second)
+- (7) : Information about individuals in a coordinate
+- (8) : Last step of previous runs
+
