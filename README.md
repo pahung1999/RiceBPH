@@ -22,6 +22,7 @@ julia -J sys.so scripts/run_explore.jl
 ```
 
 ## Interface explanation:
+![plot](./images/Interface.png)
 - (1) : Run model for one update
 - (2) : Start/stop run model
 - (3) : Reset model to step 0 
